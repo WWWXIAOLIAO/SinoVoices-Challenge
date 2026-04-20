@@ -1832,7 +1832,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("http://intecs.itfac.mrt.ac.lk/intecs-images/faculty-low.jpg");
+  background: url("../img/nwpu.jpg") center center / cover no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
