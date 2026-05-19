@@ -69,7 +69,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#news">News</a></li>
-          <li><a class="nav-link scrollto" href="#task">Tasks</a></li>
+          <li><a class="nav-link scrollto" href="#task">Tracks</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Data</a></li>
           <li><a class="nav-link scrollto" href="#registration">Registration</a></li>
           <li><a class="nav-link scrollto" href="#timeline">Timeline</a></li>
           <li><a class="nav-link scrollto" href="#leaderboard">Leaderboard</a></li>
@@ -158,7 +159,10 @@
 
                 <li style="margin: 0.8em 0;">
 
-                  <strong>2026-05-15 (New!):</strong> The training data and validation data (Part 1) have now been released! All participating teams, please check the email address used for challenge registration to obtain the data download link. The rest of the training data and validation data will be released in the next few days.
+                  <strong>2026-05-15 (New!):</strong> The training data and validation data (Part 1) have now been
+                  released! All participating teams, please check the email address used for challenge registration to
+                  obtain the data download link. The rest of the training data and validation data will be released in
+                  the next few days.
                 </li>
 
                 <li style="margin: 0.8em 0;">
@@ -513,6 +517,63 @@
               </table>
             </div>
           </div>
+
+
+        <!-- Glasses Image and Microphone Array Description -->
+        <div class="row mb-4">
+          <div class="col-lg-12 text-center" data-aos="fade-up">
+            <img src="assets/img/glasses.jpg" alt="SmartGlasses Microphone Array"
+              class="img-fluid" style="max-width: 70%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-lg-12" data-aos="fade-up"
+            style="font-size: 16px; text-align: justify; line-height: 1.65;">
+
+            <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Channel-to-Microphone Mapping</h3>
+            <p>
+              The 4 channels of the audio files are mapped to the physical micro-electro-mechanical systems (MEMS)
+              microphone array integrated onto the smart glasses frames as follows:
+            </p>
+            <ul style="padding-left: 1.25rem;">
+              <li class="mb-2"><strong>Channel 1 (mic1):</strong> Right temple, rear position</li>
+              <li class="mb-2"><strong>Channel 2 (mic2):</strong> Right temple, front position</li>
+              <li class="mb-2"><strong>Channel 3 (mic3):</strong> Left temple, front position</li>
+              <li class="mb-2"><strong>Channel 4 (mic4):</strong> Left temple, rear position</li>
+            </ul>
+
+            <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Physical Array Geometry</h3>
+            <p>
+              The spatial coordinates and geometric constraints of the acoustic centers of the four microphones are
+              specified below:
+            </p>
+
+            <p class="fw-bold mb-2">Horizontal Projection Displacements:</p>
+            <ul style="padding-left: 1.25rem;">
+              <li class="mb-2"><strong>Intra-temple separation (Right):</strong> The axial distance between mic1 and mic2
+                is 47 mm.</li>
+              <li class="mb-2"><strong>Intra-temple separation (Left):</strong> The axial distance between mic3 and mic4
+                is 50 mm.</li>
+              <li class="mb-2"><strong>Inter-temple span (Front):</strong> The cross-lateral distance between mic2 and
+                mic3 is 145 mm.</li>
+              <li class="mb-2"><strong>Inter-temple span (Rear):</strong> The cross-lateral distance between mic1 and mic4
+                is 146 mm.</li>
+            </ul>
+
+            <p class="fw-bold mb-2">Vertical &amp; Lateral Offsets:</p>
+            <ul style="padding-left: 1.25rem;">
+              <li class="mb-2">Compared to the right-rear microphone (mic1), the right-front microphone (mic2) features a
+                positive vertical elevation of 10 mm and an outward lateral offset of 1 mm along the frame thickness
+                direction.</li>
+              <li class="mb-2">The acoustic centers of mic1, mic3, and mic4 reside on the same horizontal reference plane
+                (zero vertical offset).</li>
+              <li class="mb-2">The left and right temples are orthogonal to the plane of the lenses.</li>
+              <li class="mb-2">The baseline connecting mic1 and mic4 is strictly parallel to the plane of the lenses.</li>
+            </ul>
+          </div>
+        </div>
+
 
           <!-- Evaluation Metric Section -->
           <div class="row mt-5">
