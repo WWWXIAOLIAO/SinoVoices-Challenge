@@ -74,6 +74,7 @@
           <li><a class="nav-link scrollto" href="#registration">Registration</a></li>
           <li><a class="nav-link scrollto" href="#timeline">Timeline</a></li>
           <li><a class="nav-link scrollto" href="#leaderboard">Leaderboard</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
           <!--<li><a class="nav-link scrollto" href="./submission.html">Submission</a></li>-->
           <li>
             <button class="btn-get-started btn rulesBtn" type="button" data-bs-toggle="modal"
@@ -519,60 +520,66 @@
           </div>
 
 
-        <!-- Glasses Image and Microphone Array Description -->
-        <div class="row mb-4">
-          <div class="col-lg-12 text-center" data-aos="fade-up">
-            <img src="assets/img/glasses.jpg" alt="SmartGlasses Microphone Array"
-              class="img-fluid" style="max-width: 70%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+          <!-- Glasses Image and Microphone Array Description -->
+          <div class="row mb-4">
+            <div class="col-lg-12 text-center" data-aos="fade-up">
+              <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Smart Glasses Microphone Array Layout</h3>
+              <img src="assets/img/glasses.jpg" alt="SmartGlasses Microphone Array" class="img-fluid"
+                style="max-width: 70%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            </div>
           </div>
-        </div>
 
-        <div class="row mb-5">
-          <div class="col-lg-12" data-aos="fade-up"
-            style="font-size: 16px; text-align: justify; line-height: 1.65;">
+          <div class="row mb-5">
+            <div class="col-lg-12" data-aos="fade-up" style="font-size: 16px; text-align: justify; line-height: 1.65;">
 
-            <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Channel-to-Microphone Mapping</h3>
-            <p>
-              The 4 channels of the audio files are mapped to the physical micro-electro-mechanical systems (MEMS)
-              microphone array integrated onto the smart glasses frames as follows:
-            </p>
-            <ul style="padding-left: 1.25rem;">
-              <li class="mb-2"><strong>Channel 1 (mic1):</strong> Right temple, rear position</li>
-              <li class="mb-2"><strong>Channel 2 (mic2):</strong> Right temple, front position</li>
-              <li class="mb-2"><strong>Channel 3 (mic3):</strong> Left temple, front position</li>
-              <li class="mb-2"><strong>Channel 4 (mic4):</strong> Left temple, rear position</li>
-            </ul>
+              <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Channel-to-Microphone Mapping</h3>
+              <p>
+                The 4 channels of the audio files are mapped to the physical micro-electro-mechanical systems (MEMS)
+                microphone array integrated onto the smart glasses frames as follows:
+              </p>
+              <ul style="padding-left: 1.25rem;">
+                <li class="mb-2"><strong>Channel 1 (mic1):</strong> Right temple, rear position</li>
+                <li class="mb-2"><strong>Channel 2 (mic2):</strong> Right temple, front position</li>
+                <li class="mb-2"><strong>Channel 3 (mic3):</strong> Left temple, front position</li>
+                <li class="mb-2"><strong>Channel 4 (mic4):</strong> Left temple, rear position</li>
+              </ul>
 
-            <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Physical Array Geometry</h3>
-            <p>
-              The spatial coordinates and geometric constraints of the acoustic centers of the four microphones are
-              specified below:
-            </p>
+              <h3 class="h5 fw-bold mt-4 mb-3" style="color: #1f4385;">Physical Array Geometry</h3>
+              <p>
+                The spatial coordinates and geometric constraints of the acoustic centers of the four microphones are
+                specified below:
+              </p>
 
-            <p class="fw-bold mb-2">Horizontal Projection Displacements:</p>
-            <ul style="padding-left: 1.25rem;">
-              <li class="mb-2"><strong>Intra-temple separation (Right):</strong> The axial distance between mic1 and mic2
-                is 47 mm.</li>
-              <li class="mb-2"><strong>Intra-temple separation (Left):</strong> The axial distance between mic3 and mic4
-                is 50 mm.</li>
-              <li class="mb-2"><strong>Inter-temple span (Front):</strong> The cross-lateral distance between mic2 and
-                mic3 is 145 mm.</li>
-              <li class="mb-2"><strong>Inter-temple span (Rear):</strong> The cross-lateral distance between mic1 and mic4
-                is 146 mm.</li>
-            </ul>
+              <p class="fw-bold mb-2">Horizontal Projection Displacements:</p>
+              <ul style="padding-left: 1.25rem;">
+                <li class="mb-2"><strong>Intra-temple separation (Right):</strong> The axial distance between mic1 and
+                  mic2
+                  is 47 mm.</li>
+                <li class="mb-2"><strong>Intra-temple separation (Left):</strong> The axial distance between mic3 and
+                  mic4
+                  is 50 mm.</li>
+                <li class="mb-2"><strong>Inter-temple span (Front):</strong> The cross-lateral distance between mic2 and
+                  mic3 is 145 mm.</li>
+                <li class="mb-2"><strong>Inter-temple span (Rear):</strong> The cross-lateral distance between mic1 and
+                  mic4
+                  is 146 mm.</li>
+              </ul>
 
-            <p class="fw-bold mb-2">Vertical &amp; Lateral Offsets:</p>
-            <ul style="padding-left: 1.25rem;">
-              <li class="mb-2">Compared to the right-rear microphone (mic1), the right-front microphone (mic2) features a
-                positive vertical elevation of 10 mm and an outward lateral offset of 1 mm along the frame thickness
-                direction.</li>
-              <li class="mb-2">The acoustic centers of mic1, mic3, and mic4 reside on the same horizontal reference plane
-                (zero vertical offset).</li>
-              <li class="mb-2">The left and right temples are orthogonal to the plane of the lenses.</li>
-              <li class="mb-2">The baseline connecting mic1 and mic4 is strictly parallel to the plane of the lenses.</li>
-            </ul>
+              <p class="fw-bold mb-2">Vertical &amp; Lateral Offsets:</p>
+              <ul style="padding-left: 1.25rem;">
+                <li class="mb-2">Compared to the right-rear microphone (mic1), the right-front microphone (mic2)
+                  features a
+                  positive vertical elevation of 10 mm and an outward lateral offset of 1 mm along the frame thickness
+                  direction.</li>
+                <li class="mb-2">The acoustic centers of mic1, mic3, and mic4 reside on the same horizontal reference
+                  plane
+                  (zero vertical offset).</li>
+                <li class="mb-2">The left and right temples are orthogonal to the plane of the lenses.</li>
+                <li class="mb-2">The baseline connecting mic1 and mic4 is strictly parallel to the plane of the lenses.
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
 
 
           <!-- Evaluation Metric Section -->
@@ -839,6 +846,111 @@
     </section>
 
 
+
+    <!-- ======= FAQ Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>FAQ</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+
+            <h3 class="h5 fw-bold mb-4" style="color: #1f4385;">1. Data</h3>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: Why does the current download only include Part 1? Will Part 2 have a different
+                format?</p>
+              <p>A: We adopted a staged release strategy to allow participating teams to acquire data and set up
+                baseline pipelines as early as possible. Part 1 contains the complete directory structure and sufficient
+                data to run through the entire process. Part 2 will be released gradually within a week. Part 2 simply
+                represents an expansion in data volume; its file format, four-channel audio properties, and directory
+                structure will be exactly identical to Part 1. When released, you will only need to append the new data
+                to the corresponding folders.</p>
+            </div>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: I noticed that the multiple-choice QA in the Dev set occasionally contains
+                logical flaws or noise. Will the Test set be the same?</p>
+              <p>A: The QA pairs in the Dev set were automatically generated by Large Language Models (LLMs) without
+                strict human verification, and are provided merely as "reference examples" for teams to debug their
+                pipelines. For the hidden Test set used for final leaderboard ranking, all questions and Ground Truth
+                answers will undergo rigorous double human verification and refinement.</p>
+            </div>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: The audio is four-channel. Do I have to use all the channels?</p>
+              <p>A: We provide complete four-channel audio to preserve the most authentic acoustic spatial information.
+                Participating teams are free to decide whether to utilize the multi-channel information for beamforming
+                / front-end signal processing, or simply extract a single channel for model training. This depends
+                entirely on your algorithm design.</p>
+            </div>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: If I only participate in a single track, can I use the data from the other
+                track for training?</p>
+              <p>A: Yes, this is fully permitted. You are welcome to use the official datasets across tracks (e.g.,
+                using Track 2 data to assist in training a model for Track 1) to augment your training data and improve
+                the model's generalizability.</p>
+            </div>
+
+            <h3 class="h5 fw-bold mt-5 mb-4" style="color: #1f4385;">2. Models &amp; Rules</h3>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: How is the "One System" defined in the rules? Can I use different models to
+                handle their corresponding tasks (e.g., using an if-else script for task routing)?</p>
+              <p>A: The core principle of this challenge is "One system handles two tasks". The single system submitted
+                by your team may include necessary pre-processing and post-processing modules, and we encourage internal
+                architectural innovations as long as they are part of an integrated system design. However, it is
+                strictly prohibited to use manually hard-coded heuristic rules (e.g., simple if-else scripts) to
+                forcibly route test samples with different characteristics to completely independent and heterogeneous
+                core models for "pseudo-ensembling".</p>
+            </div>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: Do I have to use the exact same model to participate in both Track 1
+                (Two-party) and Track 2 (Multi-party)?</p>
+              <p>A: This is not mandatory. You can design one specific model for Track 1 and a different model for Track
+                2. However, we encourage teams with sufficient resources to explore foundational
+                Omni-modal/Audio-Language Models capable of handling both tracks simultaneously.</p>
+            </div>
+
+            <div class="faq-item">
+              <p class="fw-bold mb-1">Q: Can we use external data and pre-trained foundation models?</p>
+              <p>A: Yes, this is allowed. You may use open-source pre-trained foundation models (e.g., Whisper, LLaMA,
+                Qwen) and external, open-source datasets (e.g., LibriSpeech). However, the use of any private data is
+                strictly prohibited. All external resources and data augmentation methods used must be explicitly
+                disclosed in the final System Description Paper.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .faq {
+        padding: 60px 0;
+      }
+
+      .faq-item {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        line-height: 1.65;
+        text-align: justify;
+      }
+
+      .faq-item p {
+        margin-bottom: 0;
+        color: #333;
+      }
+    </style>
+    <!-- End FAQ Section -->
 
     <!-- ======= License Section ======= -->
     <section id="license" class="license">
